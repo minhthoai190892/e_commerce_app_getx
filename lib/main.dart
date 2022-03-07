@@ -30,6 +30,10 @@ class MyApp extends StatelessWidget {
           name: '/products/new',
           page: () => NewProductScreen(),
         ),
+        GetPage(
+          name: '/orders',
+          page: () => const OrdersScreen(),
+        ),
       ],
     );
   }
